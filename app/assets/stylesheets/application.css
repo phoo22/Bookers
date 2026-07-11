@@ -1,0 +1,150 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+/* ကွန်ပျူတာ Screen တစ်ခုလုံးရဲ့ စာလုံးပုံစံနဲ့ default margins တွေကို ညှိတာပါ */
+body {
+  font-family: sans-serif;
+  color: #333;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 8px 15px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+}
+
+td{
+  line-height: 10px;
+  font-size: 13px;
+}
+th:nth-child(1) {
+  width: 25%;
+}
+
+td:nth-child(1){
+  width: 25%;
+}
+
+th:nth-child(2){
+  width: 50%;
+}
+
+td:nth-child(2){
+  width: 50%;
+}
+
+table a {
+  color: #000;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.field input[type="text"] {
+  width: 200px;
+  padding: 4px;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
+
+.field textarea {
+  width: 180px;
+  padding: 4px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  resize: vertical;
+}
+
+.actions input[type="submit"] {
+  background-color: #f0f0f0;
+  border: 1px solid #777;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions input[type="submit"]:hover {
+  background-color: #e0e0e0;
+}
+
+/* တစ်မျက်နှာလုံးစာ base font ညှိတာပါ */
+body {
+  font-family: sans-serif;
+  color: #333;
+  padding: 40px;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+/* Title: နဲ့ Body: စာကြောင်းတွေရဲ့ အပေါ်အောက် အကွာအဝေး (Margin) ကို ညှိတာပါ */
+.book-detail {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Title: နဲ့ Body: ဆိုတဲ့ စာလုံးတွေကို ပုံစံအမှန်အတိုင်း ပိုထူစေတာပါ */
+.book-detail strong {
+  font-weight: bold;
+  font-size: 18px; /* လိုအပ်ရင် အရွယ်အစား နည်းနည်း ထပ်ကြီးလို့ရပါတယ် */
+}
+
+/* Edit နဲ့ Back link တွေ ရှိတဲ့ နေရာကို အကွာအဝေး ပေးတာပါ */
+.book-links {
+  margin-top: 30px;
+}
+
+/* Link တွေရဲ့ အရောင်ကို ပုံစံအမှန်အတိုင်း အမည်းရောင်ပြောင်းပြီး မျဉ်းတားပေးတာပါ */
+.book-links a {
+  color: #000;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+a {
+  color: gray;
+}
